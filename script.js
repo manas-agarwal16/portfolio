@@ -5,7 +5,7 @@ const pages = document.querySelectorAll("[page]");
 
 for (let i = 0; i < navLinks.length; i++) {
   navLinks[i].addEventListener("click", function () {
-    console.log("here");
+    // console.log("here");
 
     for (let j = 0; j < pages.length; j++) {
       pages[j].classList.remove("active");
@@ -15,10 +15,10 @@ for (let i = 0; i < navLinks.length; i++) {
       navLinks[j].classList.remove("active");
     }
     const targetPage = this.innerHTML.toLowerCase();
-    console.log("targetPage : ", targetPage);
+    // console.log("targetPage : ", targetPage);
 
     for (let j = 0; j < pages.length; j++) {
-      console.log("pages[j].dataset.page : ", pages[j].getAttribute("page"));
+      // console.log("pages[j].dataset.page : ", pages[j].getAttribute("page"));
       if (targetPage === pages[j].getAttribute("page")) {
         pages[j].classList.add("active");
         navLinks[j].classList.add("active");
@@ -30,18 +30,17 @@ for (let i = 0; i < navLinks.length; i++) {
 }
 
 const toggleElement = function (element) {
-  console.log();
   
   element.classList.toggle("active");
 };
 
 const sidebar = document.querySelector(".sidebar");
 const sidebarBtn = document.querySelector(".sidebar-btn");
-console.log("sidebarBtn : ", sidebarBtn);
+// console.log("sidebarBtn : ", sidebarBtn);
 
 
 sidebarBtn.addEventListener("click", function () {
-  console.log("clicked");
+  // console.log("clicked");
   toggleElement(sidebar);
 });
 
