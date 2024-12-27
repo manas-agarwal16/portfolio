@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manas's Portfolio</title>
+  <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,600&display=swap" rel="stylesheet">
+</head>
+
+<body style="background-color: black;">
+
+  <main>
+    <aside class="sidebar">
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <div class="avatar-container">
+            <img class="avatar-box" src="./assets/images/profile_photo.jpg" alt="Profile Image">
+          </div>
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Manas Agarwal">Manas Agarwal</h1>
+
+          <p class="title">Full-Stack Web Developer</p>
+        </div>
+
+        <button class="sidebar-btn">
+          <!-- <ion-icon name="chevron-down"></ion-icon> -->
+          <span>Show Contacts</span>
+        </button>
+
+      </div>
+
+      <div>
+        <div class="separator"></div>
+        <ul class="contact-list">
+          <li class="contact-item">
+            <div class="icon" id="email">
+              &#9993;
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:manas.agarwal1604@gmail.com" class="contact-link">manas.agarwal1604@gmail.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div id="phone" class="icon">
+              &#9742;
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+91 8279653442" class="contact-link">+91 8279653442</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon">
+              &#128197;
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="16-03-2004">March 16, 2004</time>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon">
+              &#128205;
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Ghaziabad, Uttar Pradesh, India</address>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/manas-agarwal16/" target="_blank" class="social-link">
+              <img src="./assets/images/linkedin.svg
+                " alt="design icon" width="20"></a>
+          </li>
+          <li class="social-item">
+            <a href="https://github.com/manas-agarwal16" target="_blank" class="social-link">
+              <img src="./assets/images/github.svg
+                " alt="design icon" width="20">
+              </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://leetcode.com/u/manas_agarwal16/" target="_blank" class="social-link">
+              <img src="./assets/images/leetcode.svg
+                " alt="design icon" width="20">
+              </a>
+          </li>
+          <li class="social-item">
+            <a href="https://codeforces.com/profile/manas_agarwal16/" target="_blank" class="social-link">
+              <img src="./assets/images/codeforces.svg
+                " alt="design icon" width="20"/></a>
+          </li>
+        </ul>
+      </div>
+
+    </aside>
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link nav-link active" nav-link-custom >About</button>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./MyResume.pdf" class="navbar-link" download="./My_Resume.pdf">Download Resume</a>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link nav-link">Projects and Work</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link nav-link">Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <article class="about active" page="about">
+
+        <header>
+          <h1 class="h1 article-title">About Me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a Full-Stack Web Developer and a problem solver. I have worked with ReactJS, Redux-toolkit, Appwrite, NodeJS, MongoDB and PostgresSQL, and I'm always learning new techologies. I have knowledge of writing scalable production level code while following best practices. I am highly interested in solving problems and have a strong grasp of Data Structures and Algorithms as well as Competitive Programming.
+          </p>
+        </section>
+
+        <section class="skills">
+
+          <h2 class="skills-title">Skills I carry</h2>
+
+          <ul class="skills-list" >
+
+            <li class="skills-item">
+
+              <div class="skills-icon">
+                <img src="./assets/images/frontend-icon.png
+                " alt="front-end icon" width="40"/>
+              </div>
+
+              <div class="skills-content-box">
+                <h4 class="skills-item-title">Frontend developer</h4>
+
+                <p class="skills-item-text">
+                  I have experience in building responsive and user-friendly web applications using ReactJS, Redux-toolkit and TailwindCSS.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="skills-icon">
+                <img src="./assets/images/backend-icon.png" alt="backend development icon" width="40">
+              </div>
+
+              <div class="skills-content-box">
+                <h4 class="skills-item-title">Backend developer</h4>
+
+                <p class="skills-item-text">
+                  I have experience in building scalable production level backend using NodeJS, ExpressJS, MongoDB and PostgresSQL.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="skills-icon">
+                <img src="assets/images/data-structure-icon.png" alt="DSA icon" width="40">
+              </div>
+
+              <div class="skills-content-box">
+                <h4 class="h4 skills-item-title">Data Structures and Algorithms</h4>
+
+                <p class="skills-item-text">
+                  @Knight at Leetcode and solved over 450+ questions on Data Structures and Algorithms.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="skills-icon">
+                <img src="assets/images/cp-icon.png" alt="cp icon" width="40">
+              </div>
+
+              <div class="skills-content-box">
+                <h4 class="h4 skills-item-title">Competitive Programming</h4>
+
+                <p class="skills-item-text">
+                  I am pupil at codeforces with rating of 1342 and 3⭐ at codechef. I have solved 500+ questions on competitive programming.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+ 
+      <article class="projects" page="projects and work">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="my-projects">
+          <ul class="project-list">
+
+            <li class="project-post">
+
+              <a href="https://v-stream-frontend.vercel.app/" target="_blank">
+                <img class="project-image" src="./assets/images/VStreamPhoto.png" alt="VStream" loading="lazy" target="_blank">       
+
+                <div class="project-description">
+            
+                  <div class="project-tech">
+                    <p class="project-title">VStream</p>
+            
+                    <span class="dot">•</span>
+            
+                    <div>ReactJS | Redux-toolkit | NodeJS | MongoDB</div>
+                  </div>
+            
+                  <div class="project-links">
+                    <h3 class="project-links-title">VStream</h3>
+                   <div style="display: flex; gap: 4px;">
+                    <a class="project-github-link" target="_blank" href="https://github.com/manas-agarwal16/VStream-frontend">Frontend</a>
+                    <a class="project-github-link" target="_blank" href="https://github.com/manas-agarwal16/VStream-backend">Backend</a>
+                   </div>
+                  </div>
+                  
+                  <p class="project-text">
+                    VStream is a dynamic video and music streaming platform that offers users the convenience of watching videos and listening
+                    to music in one place
+                  </p>
+            
+                </div>
+            
+              </a>
+            </li>
+
+            <li class="project-post">
+
+              <a href="https://leetcode.com/u/manas_agarwal16/" target="_blank">
+                <img class="project-image" src="./assets/images/leetcode-profile.png" alt="Leetcode-profile" loading="lazy" target="_blank">    
+
+                <div class="project-description">
+            
+                  <div class="project-tech">
+                    <p class="project-title">Leetcode</p>
+            
+                    <span class="dot">•</span>
+            
+                    <div>@Knight | Top 5% | 350+ questions</div>
+                  </div>
+            
+                  <div class="project-links">
+                    <h3 class="project-links-title">Leetcode</h3>
+                   <div style="display: flex; gap: 4px;">
+                    <!-- <a class="project-github-link" target="_blank" href="https://github.com/manas-agarwal16/VStream-frontend">Fronend</a>
+                    <a class="project-github-link" target="_blank" href="https://github.com/manas-agarwal16/VStream-backend">Backend</a> -->
+                   </div>
+                  </div>
+                  
+                  <p class="project-text">
+                      <div class="project-text" style="margin-bottom: 5px;">
+                      Data Structures: Arrays Strings Linked List Stack Queue Trees Heap Graph Tries.
+                      </div>
+                      <div class="project-text">
+                      Algorithms: Searching Sorting Greedy Algorithms Recursion Backtracking Divide and Conquer Dynamic Programming Graph Algorithms.
+                      </div>
+                  </p>
+            
+                </div>
+            
+              </a>
+            </li>
+
+            <li class="project-post">
+
+              <a href="https://codeforces.com/profile/manas_agarwal16" target="_blank">
+                <img class="project-image" src="./assets/images/codeforces-profile.png" alt="VStream" loading="lazy" target="_blank">       
+
+                <div class="project-description">
+            
+                  <div class="project-tech">
+                    <p class="project-title">Codeforces</p>
+            
+                    <span class="dot">•</span>
+            
+                    <div>Pupil | max rating: 1342 | 550+ Questions </div>
+                  </div>
+            
+                  <div class="project-links">
+                    <h3 class="project-links-title">Codeforces</h3>
+                   <div style="display: flex; gap: 4px;">
+                    <!-- <a class="project-github-link" target="_blank" href="https://github.com/manas-agarwal16/VStream-frontend">Fronend</a>
+                    <a class="project-github-link" target="_blank" href="https://github.com/manas-agarwal16/VStream-backend">Backend</a> -->
+                   </div>
+                  </div>
+                  
+                  <p class="project-text">
+                    I enjoy competitive programming which helps me to keep my mind sharp and always look for an optimal solution for any problem I tackle.
+                  </p>
+            
+                </div>
+            
+              </a>
+            </li>
+
+            <!-- 2nd project here -->
+            <!-- <li class="project-post">
+
+              <a href="https://v-stream-frontend.vercel.app/" target="_blank">
+                <img class="project-image" src="./assets/images/VStreamPhoto.png" alt="VStream" loading="lazy" target="_blank">       
+
+                <div class="project-description">
+            
+                  <div class="project-tech">
+                    <p class="project-title">VStream</p>
+            
+                    <span class="dot">•</span>
+            
+                    <div>ReactJS | Redux-toolkit | NodeJS | MongoDB</div>
+                  </div>
+            
+                  <div class="project-links">
+                    <h3 class="project-links-title">VStream</h3>
+                   <div style="display: flex; gap: 4px;">
+                    <a class="project-github-link" target="_blank" href="https://github.com/manas-agarwal16/VStream-frontend">Fronend</a>
+                    <a class="project-github-link" target="_blank" href="https://github.com/manas-agarwal16/VStream-backend">Backend</a>
+                   </div>
+                  </div>
+                  
+                  <p class="project-text">
+                    VStream is a dynamic video and music streaming platform that offers users the convenience of watching videos and listening
+                    to music in one place
+                  </p>
+            
+                </div>
+            
+              </a>
+            </li> -->
+          </ul>
+        </section>
+
+      </article>
+      
+      <article class="contact" page="contact">
+
+        <header>
+          <h2 class="article-title">Contact</h2>
+        </header>
+        <div>
+
+          <section class="contact-form">
+
+            <h2 class="form-title">Get in touch</h2>
+
+            <form action="https://api.web3forms.com/submit" method="POST" class="form" id="
+            form">
+
+              <div class="input-wrapper">
+                <input type="text" name="fullname" class="form-input" placeholder="Full name" required class="form-field">
+
+                <input type="email" name="email" class="form-input" placeholder="Email address" required class="form-field">
+              </div>
+
+              <textarea name="message" class="form-input" placeholder="Your Message" required class="form-field"></textarea>
+              <input type="hidden" name="access_key" value="3e694d94-442f-4fe5-a674-81f5122f178e">
+              <button class="submit" type="submit" disabled>
+                <span>Send Message</span>
+              </button>
+
+            </form>
+
+          </section>
+
+          <section class="contact-social-links">
+            
+            <h2 class="contact-reach-me-title">Or reach me at</h2>
+
+            <ul class="contact-reach-me"> 
+              <li>
+                <p>LinkedIn: </p>
+                <a href="https://www.linkedin.com/in/manas-agarwal16/" class="contact-link">https://www.linkedin.com/in/manas-agarwal16/</a>
+              </li>
+              <li>
+                <p>Email: </p>
+                <a href="mailto:manas.agarwal1604@gmail.com" class="contact-link">manas.agarwal1604@gmail.com</a>
+              </li><li>
+                <p>Phone: </p>
+                <a href="tel:+91 8279653442" class="contact-link">+91 8279653442</a>
+              </li>
+            </ul>
+          </section>
+        </div>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
+
+
