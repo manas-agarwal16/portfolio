@@ -692,6 +692,10 @@ textarea.form-input::-webkit-resizer { display: none; }
     font-size: 11px;
   }
 
+  .project-post{
+    margin-bottom: 20px;
+  }
+
   /* .sidebar-btn ion-icon { display: none; } */
 
 }
